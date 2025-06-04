@@ -1,0 +1,14 @@
+.recipe {
+    background-color:  hsl(0, 0%, 100%);
+   max-width: 733px;
+   margin: 120px 0;
+   padding: 50px 50px;
+   
+}
+
+.recipe__image {
+   padding-right: 100px;
+   
+    
+}
+

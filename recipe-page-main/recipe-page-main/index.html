@@ -12,16 +12,18 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../recipe-page-main/pages/style.css" />
     <link rel="stylesheet" href="./config/normalize.css" />
   </head>
   <body>
-    <img
+    <div class="wrapper">
+       <div class="recipe">
+      <img
       src="./images/image-omelette.jpeg"
       alt="spinach omelette"
-      class="omelette__image"
-    />
-    <h1 class="recipe__title">Simple Omelette Recipe</h1>
+      class="recipe__image"  
+      width="733" height="300"
+    /> <h1 class="recipe__title">Simple Omelette Recipe</h1>
     <p class="recipe__description">
       An easy and quick dish, perfect for any meal. This classic omelette
       combines beaten eggs cooked to perfection, optionally filled with your
@@ -30,9 +32,9 @@
 
     <ul class="prep-time__list">
       <h3 class="prep-time__list-title">Preparation time</h3>
-      <li class="prep-time__list-item">Total:Approximately 10 minutes</li>
-      <li class="prep-time__list-item">Preparation: 5 minutes</li>
-      <li class="prep-time__list-item">Cooking: 5 minutes</li>
+      <li class="prep-time__list-item"><strong>Total</strong>:Approximately 10 minutes</li>
+      <li class="prep-time__list-item"><strong>Preparation</strong>:5 minutes</li>
+      <li class="prep-time__list-item"><strong>Cooking</strong>:5 minutes</li>
     </ul>
 
     <ul class="ingredients__list">
@@ -48,55 +50,59 @@
     <ol class="instructions__list">
       <h2 class="instructions__list-title">Instructions</h2>
       <li class="instructions__list-item">
-        Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper
+        <strong>Beat the eggs</strong>: In a bowl, beat the eggs with a pinch of salt and pepper
         until they are well mixed. You can add a tablespoon of water or milk for
         a fluffier texture.
       </li>
       <li class="instructions__list-item">
-        Heat the pan: Place a non-stick frying pan over medium heat and add
+        <strong>Heat the pan</strong>: Place a non-stick frying pan over medium heat and add
         butter or oil.
       </li>
       <li class="instructions__list-item">
-        Cook the omelette: Once the butter is melted and bubbling, pour in the
+        <strong>Cook the omelette</strong>: Once the butter is melted and bubbling, pour in the
         eggs. Tilt the pan to ensure the eggs evenly coat the surface.
       </li>
       <li class="instructions__list-item">
-        Add fillings (optional): When the eggs begin to set at the edges but are
+        <strong>Add fillings (optional)</strong>: When the eggs begin to set at the edges but are
         still slightly runny in the middle, sprinkle your chosen fillings over
         one half of the omelette.
       </li>
       <li class="instructions__list-item">
-        Fold and serve: As the omelette continues to cook, carefully lift one
+       <strong>Fold and serve</strong>: As the omelette continues to cook, carefully lift one
         edge and fold it over the fillings. Let it cook for another minute, then
         slide it onto a plate.
       </li>
       <li class="instructions__list-item">
-        Enjoy: Serve hot, with additional salt and pepper if needed.
+       <strong>Enjoy</strong>: Serve hot, with additional salt and pepper if needed.
       </li>
-    </ol>
-    <table class="nutrition__table">
-      <h2 class="nutrition__table__title">Nutrition</h2>
+    </ol><h2 class="nutrition__table__title">Nutrition</h2>
       <p class="nutrition__table-discription">
         The table below shows nutritional values per serving without the
         additional fillings.
       </p>
-      <tr class="nutrition__table-item">
-        <td class="nutrition__table-item-info">Calories</td>
+    <table class="nutrition__table">
+      <table-body class="nutrition__table__body">
+        <tr class="nutrition__table-item">
+        <th class="nutrition__table-item-info">Calories</th>
         <td class="nutrition__table-item-info">277kcal</td>
       </tr>
       <tr class="nutrition__table-item">
-        <td class="nutrition__table-item-info">Carbs</td>
+        <th class="nutrition__table-item-info">Carbs</th>
         <td class="nutrition__table-item-info">0g</td>
       </tr>
       <tr class="nutrition__table-item">
-        <td class="nutrition__table-item-info">Protein</td>
+        <th class="nutrition__table-item-info">Protein</th>
         <td class="nutrition__table-item-info">20g</td>
       </tr>
       <tr class="nutrition__table-item">
-        <td class="nutrition__table-item-info">Fat</td>
+        <th class="nutrition__table-item-info">Fat</th>
         <td class="nutrition__table-item-info">22g</td>
-      </tr>
-    </table>
+      </tr></table-body>  
+       </table>
+  </div>
+</div>
+   
+   
 
     <div class="attribution">
       Challenge by
