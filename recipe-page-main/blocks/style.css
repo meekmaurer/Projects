@@ -1,6 +1,7 @@
 @import url(/blocks/body.css);
 @import url(/blocks/recipe__card.css);
 @import url(/blocks/style.css);
+@import url(/blocks/prep__card.css);
 
 /* young-serif-regular - latin */
 @font-face {
