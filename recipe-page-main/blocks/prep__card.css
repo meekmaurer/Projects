@@ -1,7 +1,6 @@
 .prep__card {
   border-radius: 25px;
   margin: 40px 0;
-  background-color: hsl(330, 100%, 98%);
   height: 280px;
   display: inherit;
 }
@@ -17,9 +16,11 @@
   display: inline-block;
   width: 35px;
   margin: 0;
+  font-size: 25px;
 }
 
 .prep__card__list-title {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
   margin: 0;
   padding-top: 30px;
   color: hsl(332, 51%, 32%);
@@ -28,9 +29,8 @@
 .prep__card__list-item {
   list-style-type: none;
   font-size: 18px;
-  color: hsl(24, 5%, 18%);
+  color: hsl(30, 10%, 34%);
   position: relative;
   left: 20px;
-
   margin: 25px 0;
 }

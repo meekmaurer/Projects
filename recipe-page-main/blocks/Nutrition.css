@@ -1,0 +1,28 @@
+.nutrition {
+  display: grid;
+  justify-content: space-between;
+  padding-top: 64px;
+}
+
+.nutrition__table-title {
+  font-size: 42px;
+  color: hsl(14, 45%, 36%);
+}
+.nutrition__table__discription {
+  position: relative;
+  top: -25px;
+  margin: 0;
+  font-size: 18px;
+  color: var(--c-Stone-600);
+}
+
+.nutrition__table-item {
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: var(--c-Stone-600);
+}
+
+.nutrition__table-item_bold {
+  color: var(--c-Rose-800);
+}
