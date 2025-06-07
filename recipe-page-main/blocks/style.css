@@ -90,6 +90,6 @@ img {
 }
 
 .attribution {
-  isplay: flex;
+  display: flex;
   justify-content: center;
 }
